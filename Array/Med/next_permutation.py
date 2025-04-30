@@ -23,7 +23,7 @@ step 3: Reverse the remain array on the right side of pivot index
 a = [1,3,5,4,2]
 
 # find pivot 
-pivot = 0
+pivot = -1
 for i in range(len(a)-1,-1,-1):
     if a[i] > a[i-1]:
         pivot = i - 1
